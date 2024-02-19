@@ -1,9 +1,13 @@
-import { AgeCounter } from "./AgeCounter";
-
+import { Car } from "./components/Car/Car";
+import { Greetings } from "./components/Greetings/Greetings";
+import "./global.css"
 export function App() {
   return (
     <>
-      <AgeCounter />
+    <div>
+      <Car />
+      <Greetings />
+    </div>
     </>
   );
 }
