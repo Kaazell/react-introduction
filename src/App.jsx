@@ -1,13 +1,11 @@
-import { Car } from "./components/Car/Car";
-import { Greetings } from "./components/Greetings/Greetings";
-import "./global.css"
+import { DisplayDifficulty } from "./components/DisplayDifficulty/DisplayDifficulty";
+import { MenuList } from "./components/MenuList/MenuList";
+
 export function App() {
   return (
     <>
-    <div>
-      <Car />
-      <Greetings />
-    </div>
+      {/* <DisplayDifficulty difficulty="Low" /> */}
+      <MenuList />
     </>
   );
 }
