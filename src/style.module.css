@@ -1,0 +1,9 @@
+.workspace{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title{
+    text-align: center;
+}
